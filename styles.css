@@ -1,0 +1,95 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 36px;
+}
+
+.navbar {
+    background-color: brown;
+}
+
+#header .nav .nav-link {
+    color: aliceblue;
+}
+
+#header .nav .nav-link:hover{
+    color: #ffe68d;
+}
+
+.navbar-toggler {
+    background-color:aliceblue;
+    
+}
+
+.about {
+    background-image: url(./images/bg-about.jpg);
+}
+
+.section-title {
+    font-weight: 600;
+    color:brown;
+}
+
+.section-title span {
+    font-weight: 600;
+    color:#000000;
+}
+
+.section-subtitle {
+    color: brown;
+}
+
+#section-menu {
+    background-image: url(./images/bg-menu.jpg);
+}
+
+.nav-menu .nav-link.active {
+    background-color: brown;
+    color: #fff;
+}
+.nav-menu .nav-link.active:hover {
+    color: #fff;
+}
+
+.nav-menu .nav-link:hover {
+    color:black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    
+    
+}
+
+.btn {
+    background-color: brown;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: brown;
+    color: #ffe68d;
+}
+
+@media (max-width: 768px) {
+    #section-menu {
+        background-image: none;
+    }
+
+    .btn {
+        margin-bottom: 50px;
+    }
+
+  
+}
